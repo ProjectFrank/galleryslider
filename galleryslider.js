@@ -80,7 +80,7 @@
 	    $gallery.css({
 		'position': 'relative',
 		'margin': '0 auto',
-		'width': '500px',
+		'width': '50%',
 		'height': '300px',
 		'overflow': 'hidden'
 	    });

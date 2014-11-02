@@ -33,4 +33,4 @@ function custom_size_gallery($attr) {
 
 ## Styling ##
 
-The slider can be styled with CSS. Since the default styles are inline styles, you'll likely need to add `!important` to your rules to override them.
+The slider can be styled with CSS. Since the default styles are inline styles, you'll likely need to add `!important` to your rules to override them. Default gallery styles are
