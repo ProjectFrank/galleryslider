@@ -4,9 +4,8 @@ This jQuery plugin will transform all of your WordPress galleries into fully res
 
 ## Getting Started ##
 
-1. Add the JavaScript file to the js folder (make it if it doesn't exist already) inside your theme directory.
-2. Enqueue the script with the folowing code inside functions.php: 
-
+- Add the JavaScript file to the js folder (make it if it doesn't exist already) inside your theme directory.
+- Enqueue the script with the folowing code inside functions.php: 
 ``` js
 wp_enqueue_script(
     'galleryslider', //handle
@@ -16,13 +15,10 @@ wp_enqueue_script(
     true //load in footer
 );
 ```
-
-3. Add the following code to your functions.php file:
-
+- Add the following code to your functions.php file:
 ``` php
 remove_shortcode('gallery');
 add_shortcode('gallery', 'custom_size_gallery');
-
 function custom_size_gallery($attr) {
     // Change size here - medium, large, full
     $attr['size'] = 'large';
